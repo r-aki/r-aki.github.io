@@ -6,8 +6,15 @@
     <description>Recent content in Posts on R-AKI</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 12:46:41 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 13:29:51 -0400</lastBuildDate>
     <atom:link href="http://r-aki.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding About</title>
+      <link>http://r-aki.github.io/posts/adding_about/</link>
+      <pubDate>Thu, 20 Mar 2025 13:29:51 -0400</pubDate>
+      <guid>http://r-aki.github.io/posts/adding_about/</guid>
+      <description>&lt;p&gt;This note reviews how I added contents in &amp;ldquo;About&amp;rdquo; (I just do not like 404 errors&amp;hellip;). &lt;br&gt;&#xA;It is almost the same process as adding a new post, but I made a new .md file under the content folder directly, rather than content/posts folder.&lt;/p&gt;&#xA;&lt;p&gt;I was not sure why just adding about.md automatically create this file in content, rather than somewhere else.&lt;/p&gt;&#xA;&lt;h2 id=&#34;process&#34;&gt;&#xA;  Process&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#process&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;hugo new about.md&lt;/code&gt; : about file is added in the content folder&#xA;&lt;code&gt;nano content/about.md&lt;/code&gt; : edit about.md file&#xA;&lt;code&gt;hugo&lt;/code&gt; : rebuild&#xA;Then deploy:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Edit hugo.toml (basic settings)</title>
       <link>http://r-aki.github.io/posts/edit_config/</link>
