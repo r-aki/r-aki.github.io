@@ -6,8 +6,15 @@
     <description>Recent content on R-AKI</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 12:46:41 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 13:17:05 -0400</lastBuildDate>
     <atom:link href="http://r-aki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://r-aki.github.io/about/</link>
+      <pubDate>Thu, 20 Mar 2025 13:17:05 -0400</pubDate>
+      <guid>http://r-aki.github.io/about/</guid>
+      <description>&lt;p&gt;This is a website of one curious sapiens.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Edit hugo.toml (basic settings)</title>
       <link>http://r-aki.github.io/posts/edit_config/</link>
