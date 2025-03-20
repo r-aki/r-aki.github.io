@@ -6,8 +6,15 @@
     <description>Recent content on R-AKI</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 11:37:30 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 12:46:41 -0400</lastBuildDate>
     <atom:link href="http://r-aki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Edit and hugo.toml (basic settings)</title>
+      <link>http://r-aki.github.io/posts/edit_config/</link>
+      <pubDate>Thu, 20 Mar 2025 12:46:41 -0400</pubDate>
+      <guid>http://r-aki.github.io/posts/edit_config/</guid>
+      <description>&lt;p&gt;Editing Hugo configuration file (hugo.toml) is necessary to adjust website appearances. This note reviews how to edit basic configurations by accessing hugo.toml file.&lt;/p&gt;&#xA;&lt;h2 id=&#34;goals&#34;&gt;&#xA;  Goals&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#goals&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;There are few things I want to do.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Change the website title (on the left up corner)&lt;/li&gt;&#xA;&lt;li&gt;Delete twitter &amp;amp; gitlab&amp;rsquo;s icons&lt;/li&gt;&#xA;&lt;li&gt;Link my Github with Githab icon&lt;/li&gt;&#xA;&lt;li&gt;Enable Multilingual Mode (English &amp;amp; Japanese)&lt;/li&gt;&#xA;&lt;li&gt;Add avatar (Have to create or think of the avatar at first though)&lt;/li&gt;&#xA;&lt;li&gt;Add good info, instead of &amp;ldquo;## Full Stack DevOps and Magician&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;process&#34;&gt;&#xA;  Process&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#process&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to my-blog (&lt;code&gt;cd my-blog&lt;/code&gt;), then open hugo.toml (&lt;code&gt;nano hugo.toml&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Add and Update Posts</title>
       <link>http://r-aki.github.io/posts/add_post/</link>

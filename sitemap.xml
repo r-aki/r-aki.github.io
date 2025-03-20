@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://r-aki.github.io/posts/add_post/</loc>
-    <lastmod>2025-03-20T11:37:30-04:00</lastmod>
+    <loc>http://r-aki.github.io/posts/edit_config/</loc>
+    <lastmod>2025-03-20T12:46:41-04:00</lastmod>
   </url><url>
     <loc>http://r-aki.github.io/posts/</loc>
-    <lastmod>2025-03-20T11:37:30-04:00</lastmod>
+    <lastmod>2025-03-20T12:46:41-04:00</lastmod>
   </url><url>
     <loc>http://r-aki.github.io/</loc>
+    <lastmod>2025-03-20T12:46:41-04:00</lastmod>
+  </url><url>
+    <loc>http://r-aki.github.io/posts/add_post/</loc>
     <lastmod>2025-03-20T11:37:30-04:00</lastmod>
   </url><url>
     <loc>http://r-aki.github.io/posts/how_to_make_hugo_site/</loc>
