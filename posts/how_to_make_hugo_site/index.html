@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  How to Make Hugo Site · My New Hugo Site
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="r-aki">
+<meta name="description" content="This is a note reviewing how I set up this website. I used Hugo and Github, and chose hugo-coder as the theme. I referred to this Youtube, &ldquo;Creating a Blog with Hugo and Github in 10 minutes&rdquo; by Ryan Schachte (https://www.youtube.com/watch?v=LIFvgrRxdt4) and README of the theme hugo-coder (https://github.com/luizdepra/hugo-coder). This note is for future me completely forgotten what I did last night.
+
+  Setting Up Hugo Site
+  
+    
+    Link to heading
+  
+
+
+  Downloading Hugo
+  
+    
+    Link to heading
+  
+
+First, download Hugo.
+Run brew install hugo on the Terminal app.
+I had to install Homebrew at the very beginning to do this step as well. (This is a super easy process, just run: /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;).">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Make Hugo Site">
+  <meta name="twitter:description" content="This is a note reviewing how I set up this website. I used Hugo and Github, and chose hugo-coder as the theme. I referred to this Youtube, “Creating a Blog with Hugo and Github in 10 minutes” by Ryan Schachte (https://www.youtube.com/watch?v=LIFvgrRxdt4) and README of the theme hugo-coder (https://github.com/luizdepra/hugo-coder). This note is for future me completely forgotten what I did last night.
+Setting Up Hugo Site Link to heading Downloading Hugo Link to heading First, download Hugo.
+Run brew install hugo on the Terminal app.
+I had to install Homebrew at the very beginning to do this step as well. (This is a super easy process, just run: /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34;).">
+
+<meta property="og:url" content="http://localhost:1313/posts/how_to_make_hugo_site/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="How to Make Hugo Site">
+  <meta property="og:description" content="This is a note reviewing how I set up this website. I used Hugo and Github, and chose hugo-coder as the theme. I referred to this Youtube, “Creating a Blog with Hugo and Github in 10 minutes” by Ryan Schachte (https://www.youtube.com/watch?v=LIFvgrRxdt4) and README of the theme hugo-coder (https://github.com/luizdepra/hugo-coder). This note is for future me completely forgotten what I did last night.
+Setting Up Hugo Site Link to heading Downloading Hugo Link to heading First, download Hugo.
+Run brew install hugo on the Terminal app.
+I had to install Homebrew at the very beginning to do this step as well. (This is a super easy process, just run: /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34;).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-20T10:56:59-04:00">
+    <meta property="article:modified_time" content="2025-03-20T10:56:59-04:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/how_to_make_hugo_site/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      My New Hugo Site
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/how_to_make_hugo_site/">
+              How to Make Hugo Site
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-03-20T10:56:59-04:00">
+                March 20, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>This is a note reviewing how I set up this website. I used Hugo and Github, and chose hugo-coder as the theme. I referred to this Youtube, &ldquo;Creating a Blog with Hugo and Github in 10 minutes&rdquo; by Ryan Schachte (<a href="https://www.youtube.com/watch?v=LIFvgrRxdt4"  class="external-link" target="_blank" rel="noopener">https://www.youtube.com/watch?v=LIFvgrRxdt4</a>) and README of the theme hugo-coder (<a href="https://github.com/luizdepra/hugo-coder%29"  class="external-link" target="_blank" rel="noopener">https://github.com/luizdepra/hugo-coder)</a>. This note is for future me completely forgotten what I did last night.</p>
+<h1 id="setting-up-hugo-site">
+  Setting Up Hugo Site
+  <a class="heading-link" href="#setting-up-hugo-site">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="downloading-hugo">
+  Downloading Hugo
+  <a class="heading-link" href="#downloading-hugo">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>First, download Hugo.<br>
+Run <code>brew install hugo</code> on the Terminal app.<br>
+I had to install Homebrew at the very beginning to do this step as well. (This is a super easy process, just run: <code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</code>).</p>
+<h2 id="create-github-repository">
+  Create Github repository
+  <a class="heading-link" href="#create-github-repository">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Make sure you have a Github account. <br>
+Create two repository on your Github. One is for storing the code (named <code>blog</code> or whatever), another is for deploying (named <code>&lt;your-github-username&gt;.github.io</code>).<br>
+Make sure both repository are public.</p>
+<h2 id="clone-your-repository-on-your-computer">
+  Clone your repository on your computer
+  <a class="heading-link" href="#clone-your-repository-on-your-computer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Run <code>git clone https://github.com/&lt;your-github-username&gt;/blog.git</code><br>
+This create the folder <code>blog</code>.</p>
+<h2 id="create-a-new-hugo-site">
+  Create a New Hugo Site.
+  <a class="heading-link" href="#create-a-new-hugo-site">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Go inside of <code>blog</code> file and create your site.<br>
+Go <code>blog</code> folder: <code>cd blog</code>, and run:<br>
+<code>hugo new site &lt;the folder name of your-blog&gt;</code><br>
+<code>cd &lt;the folder name of your-blog&gt;</code><br>
+New Hugo Site is created in the folder on <code>blog</code> folder, <code>&lt;the folder name of your-blog&gt;</code>.</p>
+<h2 id="add-a-hugo-theme">
+  Add a Hugo Theme
+  <a class="heading-link" href="#add-a-hugo-theme">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Variety of Hugo Themes are available on the Hugo Website. Choose one, download, and then set it as your theme on configuration file.</p>
+<p>I chose &ldquo;hugo-coder&rdquo; (because downloading process was super simple), and here is what I did.
+The link for hugo-coder: <a href="https://github.com/luizdepra/hugo-coder"  class="external-link" target="_blank" rel="noopener">https://github.com/luizdepra/hugo-coder</a></p>
+<p>Download the theme. On the folder <code>&lt;the folder name of your-blog&gt;</code> (use <code>cd</code> and <code>cd ../</code> to navigate), run this code: <code>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder</code></p>
+<p>Set it as your theme: Open configuration file by running <code>nano hugo.toml</code> and make sure <code>theme = &quot;coder&quot;</code>. (inside &quot;&quot; could be coder or hugo-coder, or what ever. Important point is inside &quot;&quot; and your file name for theme is the same).<br>
+Once you done, close configuration file (by saving change) by <code>control + X</code> &gt; <code>y</code> &gt; <code>Enter</code>.</p>
+<h3 id="check">
+  Check
+  <a class="heading-link" href="#check">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Check if it worked: On the folder <code>&lt;the folder name of your-blog&gt;</code>, run <code>hugo server</code>. This build your website. You can access your site via  <code>http://localhost:1313/</code>.<br>
+Close this website mode by <code>control + C</code>.</p>
+<h2 id="first-post">
+  First Post
+  <a class="heading-link" href="#first-post">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>You can create your post very easily. On the folder <code>&lt;the folder name of your blog&gt;</code>, run <code>hugo new posts/&lt;your post title&gt;.md</code><br>
+This creates a new post.</p>
+<p>Then, write down and publish your post.  <br>
+Go to the folder that has your post: <code>cd &lt;the folder name of your blog&gt;/content/posts</code><br>
+Open the markdown file (= your post) to edit: <code>nano &lt;your post title&gt;.md</code><br>
+You can edit title, date, etc, and you can write down any notes by using Markdown below.<br>
+<strong>Make sure <code>draft = false</code> (= published), not <code>draft = true</code> (= not published) to see it on your website.</strong><br>
+Once you done, close markdown file (by saving change) by <code>control + X</code> &gt; <code>y</code> &gt; <code>Enter</code>.</p>
+<p>You can check if your post is visible by &ldquo;Check&rdquo; (<code>hugo server</code> &gt; access via <code>https://local host:1313/</code>).</p>
+<h2 id="deploy">
+  Deploy
+  <a class="heading-link" href="#deploy">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Go back to your normal folder (where you are when you open the terminal app) by using <code>cd ../</code><br>
+Clone your another repository for deploy: <code>git clone https://github.com/&lt;your-github-username&gt;/&lt;your-github-username&gt;.github.io.bit</code><br>
+This creates a folder named <code>&lt;your-github-username&gt;.github.io</code></p>
+<h3 id="add-readme-file">
+  Add Readme file
+  <a class="heading-link" href="#add-readme-file">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Run these one by one (add README on your repository for deploying):<br>
+Switch to a new branch main: <code>git checkout -b main</code><br>
+Add Readme file: <code>touch README.me</code><br>
+Check what is going on: <code>git status</code><br>
+Then&hellip;,<br>
+<code>git add .</code><br>
+<code>git commit -m &quot;adding readme&quot;</code><br>
+<code>git push origin main</code><br>
+This creates Readme file on your github repository (<code>&lt;your-github-username&gt;.github.io</code>).<br>
+Running <code>git push origin main</code> for the first time required Github id and password, and I had to create and use <strong>token</strong> as a password.<br>
+main is a branch of your repository.</p>
+<h3 id="enable-deploying">
+  Enable Deploying
+  <a class="heading-link" href="#enable-deploying">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Delete <code>public</code> folder on <code>user/blog/&lt;the folder name of your-blog&gt;</code><br>
+(I do not know why, but this process was necessary to follow Youtube instruction, as I already had public file.) <br>
+On <code>&lt;the folder name of your-blog&gt;</code>, run <code>git submodule add -b main https://github.com/&lt;your-github-username&gt;/&lt;your-github-username&gt;.github.io.git public</code><br>
+You can check the posts are now visible by &ldquo;check&rdquo; (run <code>hugo server</code> on <code>&lt;the foldername of your-blog&gt;</code> &gt; <code>http://localhost:1313/</code>).</p>
+<p>On <code>&lt;the folder name of your-blog&gt;</code>, run <code>hugo -t coder</code> (<code>coder</code> should be the folder name of your theme).<br>
+Go to <code>public</code> folder (<code>cd public</code>) and look inside (<code>ls</code>): some files should be added (like index.html).</p>
+<p>Still on the <code>public</code> folder, check you are on the same repository: <code>git remote -v</code><br>
+If it shows your repository for deploying (not blog, storing one), now you are ready.<br>
+See what changes you made: <code>git status</code> (you&rsquo;ll see files like index.html that are newly created).</p>
+<p>Then&hellip;,<br>
+<code>git add .</code><br>
+<code>git commit -m &quot;init commit&quot;</code><br>
+<code>git push origin main</code></p>
+<p>Now your website should be accessible via link (available on your setting, Github page): <code>https://&lt;your-github-username&gt;.github.io/</code><br>
+Here is my link: <a href="https://r-aki.github.io/"  class="external-link" target="_blank" rel="noopener">https://r-aki.github.io/</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     r-aki 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

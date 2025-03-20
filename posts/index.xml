@@ -6,14 +6,21 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 00:39:02 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 10:56:59 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Make Hugo Site</title>
+      <link>http://localhost:1313/posts/how_to_make_hugo_site/</link>
+      <pubDate>Thu, 20 Mar 2025 10:56:59 -0400</pubDate>
+      <guid>http://localhost:1313/posts/how_to_make_hugo_site/</guid>
+      <description>&lt;p&gt;This is a note reviewing how I set up this website. I used Hugo and Github, and chose hugo-coder as the theme. I referred to this Youtube, &amp;ldquo;Creating a Blog with Hugo and Github in 10 minutes&amp;rdquo; by Ryan Schachte (&lt;a href=&#34;https://www.youtube.com/watch?v=LIFvgrRxdt4&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=LIFvgrRxdt4&lt;/a&gt;) and README of the theme hugo-coder (&lt;a href=&#34;https://github.com/luizdepra/hugo-coder%29&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/luizdepra/hugo-coder)&lt;/a&gt;. This note is for future me completely forgotten what I did last night.&lt;/p&gt;&#xA;&lt;h1 id=&#34;setting-up-hugo-site&#34;&gt;&#xA;  Setting Up Hugo Site&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#setting-up-hugo-site&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;downloading-hugo&#34;&gt;&#xA;  Downloading Hugo&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#downloading-hugo&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;First, download Hugo.&lt;br&gt;&#xA;Run &lt;code&gt;brew install hugo&lt;/code&gt; on the Terminal app.&lt;br&gt;&#xA;I had to install Homebrew at the very beginning to do this step as well. (This is a super easy process, just run: &lt;code&gt;/bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;quot;&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The first log</title>
       <link>http://localhost:1313/posts/website_setup/</link>
       <pubDate>Thu, 20 Mar 2025 00:39:02 -0400</pubDate>
       <guid>http://localhost:1313/posts/website_setup/</guid>
-      <description>&lt;h1 id=&#34;the-website-has-began&#34;&gt;&#xA;  The Website has began.&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-website-has-began&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Today I created this new website using Hugo and Githug. Youtube (Ryan Schachte, Creating a Blog with Hugo and Github in 10 minutes) was the great help.&#xA;The reason I opened this website is to learn coding more by outputting what I learned. I hope this works.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;the-beginning&#34;&gt;&#xA;  The Beginning.&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-beginning&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Today I created this new website using Hugo and Githug. Youtube (Ryan Schachte, Creating a Blog with Hugo and Github in 10 minutes) was the great help.&#xA;The reason I opened this website is to learn coding more by outputting what I learned. I hope this works.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is the post title</title>
