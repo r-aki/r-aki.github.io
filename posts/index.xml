@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Mar 2025 10:56:59 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Mar 2025 11:37:30 -0400</lastBuildDate>
     <atom:link href="http://r-aki.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add and Update Posts</title>
+      <link>http://r-aki.github.io/posts/add_post/</link>
+      <pubDate>Thu, 20 Mar 2025 11:37:30 -0400</pubDate>
+      <guid>http://r-aki.github.io/posts/add_post/</guid>
+      <description>&lt;p&gt;This is a note reviewing how to add and update posts here. It is much a easier process comparing to setting up the website from scratch.&lt;/p&gt;&#xA;&lt;h1 id=&#34;addingupdating-a-post&#34;&gt;&#xA;  Adding/Updating a Post&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#addingupdating-a-post&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;add&#34;&gt;&#xA;  Add&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#add&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;On the folder &lt;code&gt;&amp;lt;the folder name of your blog&amp;gt;&lt;/code&gt;, run &lt;code&gt;hugo new posts/&amp;lt;your post title&amp;gt;.md&lt;/code&gt;&#xA;This creates a new post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;edit&#34;&gt;&#xA;  Edit&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#edit&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to the folder that has your post: &lt;code&gt;cd &amp;lt;the folder name of your blog&amp;gt;/content/posts&lt;/code&gt;           &lt;br&gt;&#xA;Open the markdown file (= your post) to edit: &lt;code&gt;nano &amp;lt;your post title&amp;gt;.md&lt;/code&gt;          &lt;br&gt;&#xA;You can edit title, date, etc, and you can write down any notes by using Markdown below.         &lt;br&gt;&#xA;&lt;strong&gt;Make sure &lt;code&gt;draft = false&lt;/code&gt; (= published), not &lt;code&gt;draft = true&lt;/code&gt; (= not published) to see it on your website.&lt;/strong&gt;         &lt;br&gt;&#xA;Once you done, close markdown file (by saving change) by &lt;code&gt;control + X&lt;/code&gt; &amp;gt; &lt;code&gt;y&lt;/code&gt; &amp;gt; &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Make Hugo Site</title>
       <link>http://r-aki.github.io/posts/how_to_make_hugo_site/</link>
